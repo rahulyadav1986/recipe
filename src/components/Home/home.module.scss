@@ -1,0 +1,28 @@
+.home_bg_wrapper{
+    width: 100%;
+    padding: 12px 10px 0;
+    img{
+        width: 100% !important;
+        height: auto !important;
+        margin-bottom: 20px;
+    }
+}
+
+
+.title_wrapper{
+    width: 100%;
+    padding: 0 30px;
+    h3{
+        color: #94938f;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-family: var(--BodyFont);
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    h1{
+        font-size: 52px;
+        margin: 20px 0;
+    }
+    
+}
