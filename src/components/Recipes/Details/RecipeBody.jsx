@@ -7,7 +7,7 @@ const RecipeBody = ({TopRecipeDetails}) => {
     <div className={styles.receipeDetails_wrapper}>
         <h1>{TopRecipeDetails.title}</h1>
         <ul className={`${styles.time_card} d-flex align-items-center justify-content-between`}>
-          <li className='d-flex align-items-center justify-content-center flex-column'>
+          <li className={`${ TopRecipeDetails.difficulty === 'Easy' ? `${styles.easymode}` : TopRecipeDetails.difficulty === 'Medium' ?  `${styles.mediummode}` :  `${styles.challangemode}`} d-flex align-items-center justify-content-center flex-column`}>
             <Image src="/images/happyv2.png" fill={true} alt="difficulty" />
             {TopRecipeDetails.difficulty}
           </li>
