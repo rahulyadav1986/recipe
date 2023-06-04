@@ -66,6 +66,127 @@ const TodayRecipeSkeleton = ()=>{
     )
 }
 
+const RecipeSkeletonAll = ()=>{
+    return(
+        <>
+            <div className={`${styles.card}`}>               
+                <div className={`${styles.content_area} `}>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                </div>
+            </div>
+            <div className={`${styles.card}`}>               
+                <div className={`${styles.content_area} `}>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                </div>
+            </div>
+            <div className={`${styles.card}`}>               
+                <div className={`${styles.content_area} `}>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                </div>
+            </div>
+            <div className={`${styles.card}`}>               
+                <div className={`${styles.content_area} `}>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                </div>
+            </div>
+            <div className={`${styles.card}`}>               
+                <div className={`${styles.content_area} `}>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                </div>
+            </div>
+            <div className={`${styles.card}`}>               
+                <div className={`${styles.content_area} `}>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                    <SkeletonTheme baseColor="#b5b3b3" highlightColor="rgba(255,255,255,.2)">
+                        <Skeleton count={1} className={styles.skelHeading2} />
+                    </SkeletonTheme>
+                </div>
+            </div>
+        </>
+    )
+}
 
 
-export {TodayRecipeSkeleton}
+
+export {TodayRecipeSkeleton, RecipeSkeletonAll}

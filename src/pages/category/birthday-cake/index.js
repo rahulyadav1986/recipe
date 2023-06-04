@@ -44,7 +44,7 @@ const BirthDayCake = () => {
         <div className="today_receipe_wrapper">
           <div className='d-flex align-items-center justify-content-between'>
             <h2>Today Recipe</h2>
-            <Link href="/" className='view_all'>View all</Link>
+            <Link href="/category/birthday-cake/all-recipe" className='view_all'>View all</Link>
           </div>
           
           <div className="today_receipe_card d-flex scroll_area">
