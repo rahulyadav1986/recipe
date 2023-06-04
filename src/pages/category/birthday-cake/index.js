@@ -9,6 +9,7 @@ import styles from "../../../components/Recipes/recipe.module.scss"
 import Image from 'next/image';
 const BirthDayCake = () => {
   const [todayRecipes, setTodayRecipes] =useState([])
+  const [clickMenu, setClickMenu] = useState(false)
   const [loading, setLoading] = useState(false)
   const options = {
     method: 'GET',
